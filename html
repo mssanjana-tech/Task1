@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Quiz App</title>
-    <link rel="stylesheet" href="1.css">
+<title>Quiz App</title>
+<link rel="stylesheet" href="1.css">
 </head>
 <body>
 
-<div class="quiz-container">
-    <h2 id="question">Question here</h2>
-    <div id="answers"></div>
-    <button id="nextBtn">Next</button>
-    <h3 id="score"></h3>
+<div class="box" id="startScreen">
+<h1>🧠 Quiz Challenge</h1>
+<input id="name" placeholder="Enter your name">
+<button onclick="startQuiz()">Start Quiz</button>
+</div>
+
+<div class="box hidden" id="quizScreen">
+<h3 id="qNo"></h3>
+<h2 id="question"></h2>
+<div id="options"></div>
+<p id="feedback"></p>
+<button id="nextBtn" onclick="nextQuestion()" class="hidden">Next</button>
+</div>
+
+<div class="box hidden" id="resultScreen">
+<h1>Quiz Completed!</h1>
+<h2 id="result"></h2>
+<button onclick="restartQuiz()">Restart</button>
 </div>
 
 <script src="1.js"></script>
 </body>
 </html>
-  
