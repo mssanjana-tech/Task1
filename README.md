@@ -22,6 +22,7 @@ During development, focus was given to maintaining a clean user interface, smoot
 This project helped in understanding DOM manipulation, event handling, responsive web design, and frontend logic implementation. Overall, the Quiz Challenge project successfully achieved its objective of creating a simple and interactive web-based quiz application.
 
 Output of task:
+
 <img width="843" height="400" alt="image" src="https://github.com/user-attachments/assets/65a8cdd5-e37b-453a-93c6-b03b483346f0" />
 <img width="867" height="425" alt="image" src="https://github.com/user-attachments/assets/bf46a69e-2c3e-4d53-ac8e-60923b1de523" />
 <img width="872" height="352" alt="image" src="https://github.com/user-attachments/assets/123e55a4-ad57-42d5-940b-4dfb85be755c" />
